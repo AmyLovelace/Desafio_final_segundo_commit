@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: grey;
+}
+
+
+.header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5em;
+  height: 15em;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position-y: 30em;
+  margin-bottom: 3em;
+  opacity: 0.75;
+}
+
+.header h1{
+  position: relative;
+  top: 1.5em;
+  left: 1.5em;
+  margin: 0px;
+  font-size: 5em;
+  font-weight: 900;
+  color: rgb(177, 16, 16);
+  -webkit-text-stroke: 2px white;
+}
+
+.header p{
+  position: relative;
+  top: 3.5em;
+  left: 8.5em;
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(189, 119, 39);
+  -webkit-text-stroke: 0.6px white;
+  margin-top: 0em;
+}
+
+table {
+  border: 1px solid;
+  border-collapse: separate;
+  border-spacing: 0.8em;
+  border-color: black;
+}
+
+.products {
+  width: 50%;
+  margin: auto;
+}
+
+.products p.title {
+  padding-left: 1em;
+  padding-right: 0.5em;
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-bottom: 0.2em;
+}
+
+.products p.subtitle {
+  padding-left: 1.3em;
+  padding-right: 0.5em;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: 0em;
+}
+
+.products td {
+  width: 60%;
+  padding: 0em;
+  border: 1px solid black;
+}
+
+.products td ol {
+  padding-left: 3.5em;
+  padding-right: 1.5em;
+}
+
+.products tr {
+  background-color: rgb(200, 199, 199);
+}
+
+.products img {
+  width: 100%;
+  padding: 0em;
+  display: block;
+}
+
+.footer{
+  height: 3em;
+  line-height: 3em;
+  /*background-color: black;*/
+  background-image: url("../img/background.jpg");
+  background-size: auto;
+  background-position-y: 28em;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
