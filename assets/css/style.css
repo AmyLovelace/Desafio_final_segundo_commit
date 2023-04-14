@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: grey;
+  background-color: coral;
 }
 
 
@@ -34,7 +34,7 @@ body{
   font-size: 2em;
   font-weight: 600;
   color: rgb(189, 119, 39);
-  -webkit-text-stroke: 0.6px white;
+  -webkit-text-stroke: 0.6px #000;
   margin-top: 0em;
 }
 
@@ -78,7 +78,7 @@ table {
 }
 
 .products tr {
-  background-color: rgb(200, 199, 199);
+  background-color:grey;
 }
 
 .products img {
