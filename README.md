@@ -1,3 +1,2 @@
-# **CHALLENGE 2: CSS**
-
-This is a Landing Page website built with HTML plus CSS implementation for styling as part of the second challenge from Desafio Latam.
+# Desafio_final_segundo_commit
+part of the last challenge, to fork a project from a colleague and make at least one commit.
